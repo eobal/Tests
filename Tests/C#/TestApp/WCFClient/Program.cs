@@ -23,7 +23,7 @@ namespace WCFClient
 			
 			for (int i = 0; i < 5; i++)
 			{
-				Console.WriteLine ("Call WCF service...");
+				Console.WriteLine ("Call WCF service.....");
 				proxy.Operation1();
 
 				Thread.Sleep(500);

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{84EE8D55-89C9-4A51-8B7E-3FF37F8F8523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFClient", "WCFClient\WCFClient.csproj", "{87E1E6CC-B9F1-43C0-85F3-971D6E373B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyServiceApi", "MyServiceApi\MyServiceApi.csproj", "{017CA9BF-D3D8-405A-8A78-2B18BF869772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{017CA9BF-D3D8-405A-8A78-2B18BF869772}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{017CA9BF-D3D8-405A-8A78-2B18BF869772}.Debug|x86.Build.0 = Debug|Any CPU
+		{017CA9BF-D3D8-405A-8A78-2B18BF869772}.Release|x86.ActiveCfg = Release|Any CPU
+		{017CA9BF-D3D8-405A-8A78-2B18BF869772}.Release|x86.Build.0 = Release|Any CPU
+		{84EE8D55-89C9-4A51-8B7E-3FF37F8F8523}.Debug|x86.ActiveCfg = Debug|x86
+		{84EE8D55-89C9-4A51-8B7E-3FF37F8F8523}.Debug|x86.Build.0 = Debug|x86
+		{84EE8D55-89C9-4A51-8B7E-3FF37F8F8523}.Release|x86.ActiveCfg = Release|x86
+		{84EE8D55-89C9-4A51-8B7E-3FF37F8F8523}.Release|x86.Build.0 = Release|x86
+		{87E1E6CC-B9F1-43C0-85F3-971D6E373B4F}.Debug|x86.ActiveCfg = Debug|x86
+		{87E1E6CC-B9F1-43C0-85F3-971D6E373B4F}.Debug|x86.Build.0 = Debug|x86
+		{87E1E6CC-B9F1-43C0-85F3-971D6E373B4F}.Release|x86.ActiveCfg = Release|x86
+		{87E1E6CC-B9F1-43C0-85F3-971D6E373B4F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItems = $0
+		$0.Item = TestApp\TestApp.csproj
+		$0.Item = WCFClient\WCFClient.csproj
+		Policies = $1
+		$1.DotNetNamingPolicy = $2
+		$2.DirectoryNamespaceAssociation = None
+		$2.ResourceNamePolicy = FileFormatDefault
+	EndGlobalSection
+EndGlobal
